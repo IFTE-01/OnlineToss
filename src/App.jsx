@@ -22,6 +22,7 @@ function App() {
     const t = 50;
 
     async function result() {
+      setAnswer("____");
       await sleep(t);
       setMota(150)
       setCoin(b); 
